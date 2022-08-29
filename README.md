@@ -1,5 +1,15 @@
 # puppeteer-heroku-buildpack
 
+------
+
+**NOTE: This repository has been deprecated and should no longer be used.**
+
+Instead, you can use the [original Puppeteer buildpack](https://github.com/jontewks/puppeteer-heroku-buildpack) as well as [@gnuletik's font buildpack](https://github.com/gnuletik/puppeteer-heroku-buildpack-fonts) to add fonts to support more languages.
+
+[Read more about this change.](https://github.com/CoffeeAndCode/puppeteer-heroku-buildpack/pull/3)
+
+------
+
 **This fork of the [jontewks buildpack](https://elements.heroku.com/buildpacks/jontewks/puppeteer-heroku-buildpack)
 adds support for Chinese, Korean, and Japanese characters. Since it adds
 22MBs for the font files, I've kept it as a separate build pack.**
